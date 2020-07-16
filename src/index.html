@@ -1,19 +1,29 @@
+<!-- Enter your HTML code here -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News Aggregator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator APP</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
+
 <body>
-  <h1 class="site-title">News Aggregator</h1>
-  
-  <div class="search-container">
-    <input type="text" name="search" id="search" placeholder="Type and press enter to search..." />
-  </div>
-
-  <ul id="news-articles">
-
-  </ul>
+    <!-- Header section start -->
+            <div class="mainheading">NEWS AGGREGATOR</div>  
+            
+    <!-- header section end -->
+    <!-- Search bar start -->
+    <div class="search-bar">
+      <input type="text" name="search" id="search" 
+      placeholder="Type and press enter to search..."/>
+    </div>
+    <!-- search bar end -->
+    <!-- news area -->
+            <ul id="news-articles"></ul>
+                       <!-- news area end -->
+                       <!-- script for getting the news -->
+      <script src="scripts/index.js"></script>
+                          <!--script for getting the news ennd  -->
 </body>
 </html>
